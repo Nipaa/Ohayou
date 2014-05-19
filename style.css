@@ -1,0 +1,216 @@
+body {
+
+font-family: '04B03';
+background-color: #f2f2f2;
+font-size: 32px;
+cursor: default;
+overflow: hidden;
+
+}
+
+img {
+
+z-index: -2;
+position: fixed;
+max-height: 900px;
+bottom: 0%;
+left: 5%;
+
+}
+
+#navparent {
+
+position: absolute;
+top: 45%;
+margin-top: -200px;
+left: 0;
+width: 100%;
+
+}
+
+nav {
+
+position: fixed;
+text-align: center;
+cursor: default;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+z-index: 2;
+
+}
+
+a {
+
+text-decoration: none;
+cursor: default;
+color: #cecde2;
+transition: color 0.2s;
+
+}
+
+a:hover{
+
+color: #551a8b;
+
+}
+
+
+li > ul {
+
+   visibility: hidden;
+   opacity: 0;
+   transition: all 0.5s;
+   overflow-y: hidden;
+   max-height: 0;
+   padding: 0 5px;
+   
+}
+
+li:hover > ul {
+
+   visibility: visible;
+   opacity: 1;
+   transition: all 0.5s;
+   max-height: 200px;
+   max-width: auto;
+   overflow-y: hidden;
+   
+}
+
+nav > ul > li {
+
+background: #ffffff;
+padding: 1px 20px;
+border: 1px solid #cecde2;
+display: inline-table;
+border-radius: 5px;
+
+
+}
+
+nav ul ul li {
+
+display: block;
+padding: 5px 0px;
+
+
+}
+
+p {
+position: fixed;
+font-size: 150px;
+color: #551a8b;
+top: -30px;
+width: 100%;
+left: 50px;
+text-align: center;
+font-family: 'jackeyfont';
+cursor: default;
+}
+
+hr {
+
+position: fixed;
+margin-bottom: -10px;
+width: 50%;
+top: 33%;
+left: 26%;
+z-index: -2;
+color: #cecde2;
+height: 1px;
+border-top: 1px solid #cecde2;
+
+
+}
+
+.nav2 {
+
+position: relative;
+width: 50%;
+top: 80px;
+margin-left:auto;
+margin-right:auto;
+cursor: default;
+z-index: 1;
+
+
+}
+
+.nav2 > .ul2 > li,a {
+
+border: none;
+background: none;
+
+}
+
+.ul2 > li a {
+
+font-size: 50%;
+
+}
+
+#searchfield .textinput {
+
+position: absolute;
+top:1%;
+left:30%;
+border:1px solid #cecde2; 
+border-top-left-radius: 5px 5px;
+border-bottom-left-radius: 5px 5px;
+
+}
+
+#searchfield .submitinput {
+
+position: fixed;
+top:1%;
+left:71%;
+border:1px solid #cecde2; 
+border-top-right-radius: 5px 5px;
+border-bottom-right-radius: 5px 5px;
+color: #cecde2;
+transition: all 0.2s;
+
+}
+
+#searchfield .submitinput:active {
+
+color: #551a8b;
+background-color: #eaeaea;
+
+}
+
+.submitinput::-moz-focus-inner { 
+
+border: 0;
+
+}
+
+
+@font-face {
+
+font-family: jackeyfont;
+src: url (../fonts/jackeyfont.ttf);
+font-weight: normal;
+font-style: normal;
+
+}
+
+@font-face {
+
+font-family: 04B03;
+src: url (../fonts/04B_03__.ttf);
+font-weight: normal;
+font-style: normal;
+
+}
+
+
+@media screen and (max-width: 920px) {
+
+
+/* You can edit this portion to make it phone/tablet compatible */
+
+}
+
