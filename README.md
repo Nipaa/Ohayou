@@ -8,3 +8,12 @@ Ohayou
 Yes my CSS file is bad.
 
 No I don't plan on fixing it.
+
+
+Other Good Hompages
+======
+<ul>
+<li>
+<a href="https://github.com/gokoururi/homepage">Gokoururi</a>
+</li>
+</ul>
