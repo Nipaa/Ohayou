@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>homepage</title>
+		
+	</head>
+
+	
+	<body>
+	
+<!-- This piece of Javascript will randomly decide a mascot for your homepage. -->	
+<script language="JavaScript">
+
+
+var pictures = ['images/mascot1.png', 'images/mascot2.png', 'images/mascot3.png', 'images/mascot4.png', 'images/mascot5.png', 'images/mascot6.png', 'images/mascot7.png', 'images/mascot8.png', 'images/mascot9.png', 'images/mascot10.png', 'images/mascot11.png', 'images/mascot12.png', 'images/mascot13.png',　'images/mascot14.png', 'images/mascot15.png', 'images/mascot16.png', 'images/mascot17.png', 'images/mascot18.png', 'images/mascot19.png', 'images/mascot20.png',];
+
+var picture = pictures[Math.floor(Math.random() * pictures.length)];
+
+document.write('<img src="' + picture + '"/>');
+
+</script>
+
+<!-- This piece of Javascript generates a greeting based on the time of day. -->
+<script language="JavaScript" id="greeting">
+<!--
+{
+var greet;
+
+  if (new Date().getHours() < 12) {
+        greet = "おはよう！";
+		}
+		else if (new Date().getHours() < 16) {
+			greet = "こんいちは！";
+			}
+			else　if (new Date().getHours() < 18) {
+				greet = "こんばんは！";
+				}
+				else  {
+					greet = "おやすみ！";
+					}
+					
+document.write('<p>' + greet + '</p>');
+}
+//-->
+</script>
+
+<!-- These are the main drop down menu items. Replace the placeholders with what you need. -->
+		<div id="navparent"> 
+			<nav>
+				<ul>
+						<li>
+							<div>
+								<a href="http://www.4chan.org/">4chan</a>
+							</div>
+										<ul> <!-- This is the part that makes it a drop down. Add this code between the <li> </li> tags of what you want to be dropped down -->
+											<li><a href="https://boards.4chan.org/a/">/a/</a></li>
+											<li><a href="https://boards.4chan.org/g/">/g/</a></li>
+											<li><a href="https://boards.4chan.org/fa/">/fa/</a></li>
+										</ul>
+						</li>
+						<li>
+							<div>
+								<a href="http://www.youtube.com/">youtube</a>
+							</div>
+						</li>
+						<li>
+							<div>
+								<a href="http://www.pomf.se/">pomf</a>
+							</div>
+						</li>
+						<li>
+							<div>
+								<a href="http://www.soundcloud.com/">soundcloud</a>
+							</div>
+								<ul>
+									<li><a href="#">likes</a></li>
+								</ul>
+						</li>	
+			</ul>
+		</nav>
+		
+		<hr>
+		
+		<!-- This is your secondary menu. Replace the placeholders with what you need. These can also be drop downs because of my bad coding. -->
+		<nav class="nav2">
+			<ul class="ul2">
+				<li><a href="http://www.nyaa.se/">nyaa</a></li>
+				<li><a href="https://github.com/">github</a></li>
+				<li><a href="https://www.wikipedia.org/">wikipedia</a></li>
+				<li><a href="#">bank</a></li>
+				<li><a href="http://www.1999.co.jp/eng/">hobbysearch</a></li>
+				<li><a href="http://www.discogs.com/my">discogs</a></li>
+				<li><a href="http://jpopsuki.eu/index.php">jpopsuki</a></li>
+				<li><a href="http://www.realkana.com/">realkana</a></li>
+				<li><a href="http://nagomi.ne.jp/">nagomi</a></li>
+				<li><a href="http://www.liveleak.com/">liveleak</a></li>
+				<li><a href="#">bandcamp</a></li>
+				<li><a href="http://www.pixiv.net/mypage.php/">pixiv</a></li>
+				<li><a href="http://exhentai.org/">ex</a></li>
+			</ul>
+		
+		</nav>
+		</div>
+				
+		<!-- This is the searchbox. -->
+		<form id="searchfield" method="get" action="http://www.google.com/search"> <input type="text" name="q" size="108" maxlength="255" value="" class="textinput" autofocus="true" autocomplete="off" placeholder="search" STYLE= "background-color: #eaeaea; font-family: '04B03' " /> <input type="submit" value=">" class="submitinput"/>
+
+		
+	</body>
+
+</html>
