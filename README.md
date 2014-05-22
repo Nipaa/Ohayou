@@ -9,7 +9,8 @@ Yes my CSS file is bad.
 <br>
 No I don't plan on fixing it.
 <br>
-Thanks to the anons that me out with some of the features.
+<br>
+Thanks to the anons that helped me out with some of the features.
 <br>
 Other Good Hompages
 ======
